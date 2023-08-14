@@ -44,16 +44,25 @@
                                     <outletCollection property="gestureRecognizers" destination="oP2-TF-hPE" appends="YES" id="bda-Xy-14H"/>
                                 </connections>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe right if the text and the color of the card is same. Swipe left if they are different" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BCK-8e-Dn5">
+                                <rect key="frame" x="19.666666666666657" y="706.33333333333337" width="353.66666666666674" height="31.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="BCK-8e-Dn5" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="98b-zS-l7p"/>
                             <constraint firstItem="Vg4-cZ-HOz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="FbI-Yk-X15"/>
                             <constraint firstItem="Vg4-cZ-HOz" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="O6u-a5-8Xs"/>
                             <constraint firstItem="6TY-mr-Kf7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="SWd-5N-u8s"/>
                             <constraint firstItem="6TY-mr-Kf7" firstAttribute="top" secondItem="Vg4-cZ-HOz" secondAttribute="bottom" id="UuA-uw-yq7"/>
+                            <constraint firstItem="BCK-8e-Dn5" firstAttribute="top" secondItem="6TY-mr-Kf7" secondAttribute="bottom" constant="32" id="W3g-lg-iVW"/>
                             <constraint firstItem="6TY-mr-Kf7" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="aRb-3K-GRD"/>
+                            <constraint firstItem="BCK-8e-Dn5" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="kTc-X4-Nfb"/>
                             <constraint firstItem="6TY-mr-Kf7" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="s5k-w0-ari"/>
                         </constraints>
                     </view>
